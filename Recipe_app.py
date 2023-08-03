@@ -69,7 +69,7 @@ def sidebar_bg(side_bg):
 
 @st.cache_data
 def load_model():
-    sample = pd.read_csv("recipe_sample.csv")
+    sample = pd.read_csv(".DS_Store")
     
     vectorizer = TfidfVectorizer(stop_words = "english", min_df=2)
     sample['name'] = sample['name'].fillna("")
