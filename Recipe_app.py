@@ -1,3 +1,8 @@
+pip install scipy
+pip install joblib
+pip install PIL
+pip install base64
+
 import streamlit as st
 import pandas as pd
 import numpy as np
