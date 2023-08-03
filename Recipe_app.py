@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
+import scipy
 from scipy import sparse
 import joblib
 from sklearn.feature_extraction.text import TfidfVectorizer
